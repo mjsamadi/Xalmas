@@ -34,7 +34,7 @@ contract DalmasCoinCrowdsaleDeployer {
         // Create a new instance of the DalmasCoin contract.
         DalmasCoin token = new DalmasCoin (name, symbol, 0);
         
-        // Assign the token contract’s address to the `kasei_token_address` variable.
+        // Assign the token contract’s address to the `Dalmas_token_address` variable.
         Dalmas_token_address = address(token);
 
         // Create a new instance of the `DalmasCoinCrowdsale` contract
