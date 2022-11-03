@@ -19,15 +19,16 @@
 
 
 ## 7.	Project launch pad: 
-•	show room, digital asset crowd sale, dealing room, Admin, DEX
+show room, digital asset crowd sale, dealing room, Admin, DEX
 
 ## 8.	Dashboard
 
 ## 9.	User Manual 
 
-•	Q&As
-•	Videos and photos
+Q&As
+Videos and photos
 
 ## 10.	References
-•	Diamonds Market information
-•	
+Diamonds Market information
+
+![Ganache on AWS:](Ganache_on_AWS.docx)	
