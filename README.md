@@ -14,7 +14,7 @@
 ## 1.3. Why Digital Asset ?
  ...
 
-## 1.4. Xalmas landscap 
+## 1.4. Xalmas landscape
  ...
 
 ## 1.5. Xalmas Applications (Launchpad)
@@ -37,19 +37,19 @@
 # 2. Xalmas Technical 
  ...
 
-## 2.1. Technical Architecure 
+## 2.1. Technical Architecture 
  ...
 
 ## 2.2. Technologiy Stack 
  ...
 
-## 2.3. Deplyment Plan 
+## 2.3. Deployment Plan 
  ...
 
 ## 2.4. Installation / Deployment Manuals 
  ...
 
-## 2.5. User Manuals / Training Vidios 
+## 2.5. User Manuals / Training Videos 
  ...
 
 ## 2.6. Future Development 
