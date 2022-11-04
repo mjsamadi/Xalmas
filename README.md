@@ -2,7 +2,7 @@
 
 ![bitcoin-diamanti-1140x600](https://user-images.githubusercontent.com/105663954/200082085-6e1ba619-aa66-4367-afa7-ae501e2cc842.jpg)
 
-# 1. Xalmas Echosystem
+# 1. Xalmas Ecosystem
  ...
 
 ## 1.1. Intro 
