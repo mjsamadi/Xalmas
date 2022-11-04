@@ -1,34 +1,46 @@
-# Xalmas
+# Xalmas - Echosystem for Digital Asset backed by Diamond 
 
-### Dalma -  Diamonds Backed Token
+# 1. Xalmas Echosystem
 
-## 1.	Project Overview
+## 1.1. Intro 
+[Problem definition and solutions identification]
 
+## 1.2. Diamond Market and economy 
 
-## 2.	Usage and Installation instructions
+## 1.3. Why Digital Asset ?
 
-## 3.	Examples of transactions: 
+## 1.4. Xalmas landscap 
 
+## 1.5. Xalmas Applications (Launchpad)
 
-## 4.	Problem definition and solutions identification
+- Xalmas Show Room
 
+- Xalmas Investment Tool (Dalmas Token)
 
-## 5.	General Architecture
+- Xalmas Dealing Room 
 
-## 6.	Deployment Plan
+- Xalmas Decentralized Exchange 
 
+- Xalmas Administration Panel 
 
-## 7.	Project launch pad: 
-show room, digital asset crowd sale, dealing room, Admin, DEX
+## 1.6. Dalmas Tokenomics
 
-## 8.	Dashboard
+---
 
-## 9.	User Manual 
+# 2. Xalmas Technical 
 
-Q&As
-Videos and photos
+## 2.1. Technical Architecure 
 
-## 10.	References
-Diamonds Market information
+## 2.2. Technologiy Stack 
 
-![Ganache on AWS:](Ganache_on_AWS.docx)	
+## 2.3. Deplyment Plan 
+
+## 2.4. Installation / Deployment Manuals 
+
+## 2.5. User Manuals / Training Vidios 
+
+## 2.6. Future Development 
+
+## 2.7. Refrences
+
+## 2.8. Project Team 
