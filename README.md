@@ -5,7 +5,7 @@
 # 1. Xalmas Ecosystem
  ...
 
-## 1.1. Intro 
+## 1.1. Introduction
 [Problem definition and solutions identification]
 
 ## 1.2. Diamond Market and economy 
