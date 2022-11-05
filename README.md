@@ -59,7 +59,13 @@
 
 ## 2.7. References
  ...
+https://www.coindesk.com/business/2022/08/26/blockchain-startup-aims-to-open-the-1t-diamond-market-to-more-investors/
 
+https://artmeetsjewellery.com/gemstone-tokenization-nft-diamonds/
+
+https://icecap.diamonds/why-tokenize/
+
+https://levelup.gitconnected.com/the-7-types-of-cryptocurrencies-you-must-know-3b26b2ce0eb8
 ## 2.8. Project Team 
  ...
  
