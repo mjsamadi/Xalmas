@@ -2,7 +2,7 @@
 
 ![bitcoin-diamanti-1140x600](https://user-images.githubusercontent.com/105663954/200082085-6e1ba619-aa66-4367-afa7-ae501e2cc842.jpg)
 
-# 1. Xalmas Ecosystem ![600px-Ecosystem svg](https://user-images.githubusercontent.com/105663954/200141624-6d2c6b3d-c207-4c11-8ecc-8361f754c9b6.png)
+# 1. Xalmas Ecosystem 
 
  ...
 
@@ -35,7 +35,7 @@
 
 ---
 
-# 2. Xalmas Technical ![600px-Ecosystem svg](https://user-images.githubusercontent.com/105663954/200141647-661dd027-f3d8-472c-be1f-d323cd319449.png)
+# 2. Xalmas Technical
 
  ...
 
