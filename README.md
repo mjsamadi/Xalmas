@@ -58,7 +58,7 @@
  ...
 
 ## 2.7. References
- ...
+
 https://www.coindesk.com/business/2022/08/26/blockchain-startup-aims-to-open-the-1t-diamond-market-to-more-investors/
 
 https://artmeetsjewellery.com/gemstone-tokenization-nft-diamonds/
