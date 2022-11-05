@@ -8,7 +8,7 @@
 ## 1.1. Introduction
 [Problem definition and solutions identification]
 
-## 1.2. Diamond Market and economy 
+## 1.2. Diamond Market and Economy 
  ...
 
 ## 1.3. Why Digital Asset ?
@@ -40,7 +40,7 @@
 ## 2.1. Technical Architecture 
  ...
 
-## 2.2. Technologiy Stack 
+## 2.2. Technology Stack 
  ...
 
 ## 2.3. Deployment Plan 
@@ -55,7 +55,7 @@
 ## 2.6. Future Development 
  ...
 
-## 2.7. Refrences
+## 2.7. References
  ...
 
 ## 2.8. Project Team 
