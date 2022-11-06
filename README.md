@@ -1,15 +1,18 @@
 # Xalmas - Ecosystem for Digital Asset backed by Diamond 
-By: FT32 Blockchain Consulting Group
+By: FinTech Project 3 Group 2: FT32 Blockchain Consulting Group
 
 ![bitcoin-diamanti-1140x600](https://user-images.githubusercontent.com/105663954/200082085-6e1ba619-aa66-4367-afa7-ae501e2cc842.jpg)
 
 # 1. Xalmas Ecosystem 
 
- ![Xalmas Ecosystem :](XALMAS_Ecosystem.png)
+ ![Xalmas Ecosystem Graph:](XALMAS_Ecosystem.png)
 
 ## 1.1. Introduction
 [Problem definition and solutions identification]
-Elon Dumond, an international diamond trader, needs to expand its market for selling more diamonds. He identies that one of the main challenges for the diamond market is to find more customers that can afford to pay for the high price of diamonds. Elon came up with with a business idea to attract more customers by offering diamonds as an investement opportunity given the continuous value appreciation of diamonds, and by selling tokens-backed by diamonds via the blockchain worldwide. For this purpose Elon has contacted the FT32 Consulting Group for developing the technology solution that will enable his business idea.
+
+Elon Dumond, an international diamond trader, needs to expand its market for selling more diamonds. He identifies that one of the main challenges for the diamond market is to find more customers that can afford to pay for the high price of diamonds. Elon came up with with a business idea to attract more customers by offering diamonds as an investement opportunity given the continuous value appreciation of diamonds, and by selling tokens-backed by diamonds via the blockchain worldwide. Diamonds are an ideal asset backing for a token since they are rare, take a billion years to develop, have several millennia of history as a recognized store of value, and are small and therefore easily stored and transported.
+
+For this purpose Elon has contacted the FT32 Consulting Group for developing the technology solution that will enable his business idea.
 
 ### Problem definition
 
@@ -18,7 +21,7 @@ Selling diamonds to customers requires to overcome the following obstacles:
 2) Affordability ...
 3) Accessibility ...
 4) Liquidity ...
-5) Sketicism to new technology
+5) Skepticism to new technology
 
 ### Solutions identification
 
@@ -33,12 +36,14 @@ Business Principle: Maximizing investment return with undue risk
 
 
 ## 1.2. Diamond Market and Economy 
- 
-
+ Overall, the long-term outlook for the diamond market is positive, with demand for raw diamonds expected to grow at about 2% to 5% every year in the long term1. Much of this is driven by strong demand by the middle-class in the US, China and India.
+Furthermore, global diamond supply is constrained as diamonds are a finite natural resource, and the demand-supply gap is thus projected to widen over time with a forecasted decrease in diamond production2. As the value of the mDia token is to a certain extent tied to that of diamonds, the mDia token could thus appreciate in value over time as diamonds continue to benefit from positive pricing forces, continuing the historical trend from 1960 to 20163. This signifies the potential of the mDia token as a strong store of wealth with capital gains. (Reference: Whitepaper..)
  
  ...
 
 ## 1.3. Why Digital Asset ?
+ Dalmas token is designed to leverage the security and accessibility of blockchain technology with the stability of traditional assets. Dalmas token is a diamond-backed token, with each token pegged to the value of a fraction of an authentic, natural diamonds.
+ 
  ...
 
 ## 1.4. Xalmas landscape
