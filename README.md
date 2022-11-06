@@ -4,7 +4,7 @@
 
 # 1. Xalmas Ecosystem 
 
- ...
+ ![Xalmas Ecosystem :](XALMAS_Ecosystem.png)
 
 ## 1.1. Introduction
 [Problem definition and solutions identification]
@@ -46,12 +46,17 @@
  ...
 
 ## 2.3. Deployment Plan 
+
+![Dalmas Deployment Plan: ](Dalmas_Deployment_Plan.png)
  ...
 
 ## 2.4. Installation / Deployment Manuals 
  ...
 
 ## 2.5. User Manuals / Training Videos 
+ 
+ ![Dalmas Dex Listing and Trading](DALMAS_DEX_Listing_and_Trading.mp4)
+ ![Ganache on AWS](Ganache_on_AWS.docx)
  ...
 
 ## 2.6. Future Development 
