@@ -10,18 +10,18 @@ By: FinTech Project 3 Group 2: FT32 Blockchain Consulting Group
 ## 1.1. Introduction
 [Problem definition and solutions identification]
 
-Elon Dumond, an international diamond trader, needs to expand its market for selling more diamonds. He identifies that one of the main challenges for the diamond market is to find more customers that can afford to pay for the high price of diamonds. Elon came up with with a business idea to attract more customers by offering diamonds as an investement opportunity given the continuous value appreciation of diamonds, and by selling tokens-backed by diamonds via the blockchain worldwide. Diamonds are an ideal asset backing for a token since they are rare, take a billion years to develop, have several millennia of history as a recognized store of value, and are small and therefore easily stored and transported.
+Elon Dumond, an international diamond trader, needs to expand its market for selling more diamonds. He identifies that one of the main challenges for the diamond market is to find more customers that can afford to pay for the high price of diamonds. Elon came up with with a business idea to attract more customers by offering certified and high_grade diamonds as an investement opportunity given the continuous value appreciation of diamonds, and by selling tokens that are backed by diamonds through the blockchain worldwide. Diamonds are an ideal asset for backing a token since they are rare, take a billion years to develop, have several millennia of history as a recognized store of value, and are small and therefore easily stored and transported.
 
-For this purpose Elon has contacted the FT32 Consulting Group for developing the technology solution that will enable his business idea.
+Elon has contacted the FT32 Consulting Group for developing the technology solution that will enable his business idea.
 
 ### Problem definition
 
 Selling diamonds to customers requires to overcome the following obstacles:
-1) Potential Customer Distrust ...
-2) Affordability ...
-3) Accessibility ...
-4) Liquidity ...
-5) Skepticism to new technology
+1) Perceived Distrust - Customers fear of investing in a non-physical asset that is not secured or guaranteed by a bank or financial institution
+2) Limited market - Very few investors would have a large capital to afford investing in high priced diamonds  
+3) Accessibility - High priced diamonds are locked or heavily secured and they are not easily accessible to customers
+4) Liquidity - The transaction of acquiring or selling a diamonds is complex and may require a long time
+5) Skepticism to new technology - Blockchain is new technology with an steep learning curve and it is slowly being understood by investors
 
 ### Solutions identification
 
