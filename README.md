@@ -48,7 +48,7 @@ The long-term outlook for the diamond market is positive, with demand for natura
 
 ## 1.4. Dalmas Business Process Flowchart
  
-![Dalmas Business Process Flowchart]()
+![Dalmas Business Process Flowchart](Dalmas_Process_Flowchart.png)
 
 
 ## 1.5. Xalmas Applications (Launchpad)
