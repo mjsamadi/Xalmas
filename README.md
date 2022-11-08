@@ -26,7 +26,7 @@ Selling diamonds to customers requires to overcome the following obstacles:
 
 ### Solutions identification
 
-#### Dalmas Business Approach: Ofering an investment opportunity with better and more stable returns than the stock market index with undue risk
+#### Dalmas Business Approach: Offering an investment opportunity with better and more stable returns than the stock market index with undue risk
 
 1) The value of the Dalmas tokens will be backed by real Diamonds that will be stored in secured and insured vaults located in global locations offered by brokers. Each diamond will have an NFT registering the diamond as an asset attached to the Dalmas tokens, once an NFT is minted then the registered diamond becomes the property of the shareholders who own the pool of Diamonds. The Diamonds will have an NFT that registers the identification number engraved on the diamonds together with the accompanying Gemological Institute of America (GIA) certification of the quality of the diamond
 2) A low dollar value of the Dalmas token will allow investors to afford investing with as low as a $10 USD. It will make this investment opportunity accessible to million of investors across the world  
