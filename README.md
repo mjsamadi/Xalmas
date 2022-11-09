@@ -7,7 +7,7 @@ By: FinTech Project 3 Group 2: FT32 Blockchain Consulting Group
 
 Xalmas Ecosystem provides the architecture for the development and deployment of Dalmas. Dalmas is a token backed by natural high price Diamonds with an NFT Certificate of authenticiy and valuation, the tokens are offered to investors and distributed worlwide with the use of blockchain technology.
 
- ![Xalmas Ecosystem Graph:](XALMAS_Ecosystem.png)
+ ![Xalmas Ecosystem Graph:](Images/XALMAS_Ecosystem.png)
 
 ## 1.1. Introduction
 
@@ -38,7 +38,7 @@ Selling diamonds to customers requires to overcome the following obstacles:
 
 The long-term outlook for the diamond market is positive, with demand for natural diamonds expected to grow at about 2% to 5% every year. Much of this is driven by strong demand by the middle-class in the US, China and India. Furthermore, there is potential for higher returns because the global diamond supply is constrained as diamonds are a finite natural resource, and the demand-supply gap is thus projected to widen over time with a forecasted decrease in diamond production. As the value of the Dalmas token is tied to that of diamonds, the Dalmas token thus appreciate in value over time as diamonds continue to benefit from positive pricing forces, continuing the historical trend from 1960 to 2016.
 
-![Diamonds value growth vs other investment opportunities](Diamonds_value_trend.png)
+![Diamonds value growth vs other investment opportunities](Images/Diamonds_value_trend.png)
  References: Whitepaper
  
 ## 1.3. Why Digital Asset ?
@@ -48,67 +48,109 @@ The long-term outlook for the diamond market is positive, with demand for natura
 
 ## 1.4. Dalmas Business Process Flowchart
  
-![Dalmas Business Process Flowchart](Dalmas_Process_Flowchart.png)
+![Dalmas Business Process Flowchart](Images/Dalmas_Process_Flowchart.png)
 
 
 ## 1.5. Xalmas Applications (Launchpad)
 
 - Xalmas Show Room
+    ![ShowRoom](Images/ShowRoom.png)
+
+     http://54.226.181.58:8501
 
 - Xalmas Investment Tool (Dalmas Token)
+    ![Dalmas Token](Images/DealingRoom.png)
+         http://54.226.181.58:8502 
 
 - Xalmas Dealing Room 
+    ![DealingRoom](Images/DealingRoom.png)
+
+     http://54.226.181.58:8503
 
 - Xalmas Decentralized Exchange 
+    ![DEX](Images/uniswap.jpg)
 
-- Xalmas Administration Panel 
+    https://app.uniswap.org/#/swap
 
 ## 1.6. Dalmas Tokenomics
  ...
 
 ---
 
-# 2. Xalmas Technical
+# 2. Xalmas Could Deployment 
 
- ...
+- Ganache CLI on AWS EC2
+    ![Ganache](Images/GanacheCLI-AWS.png)
+
+- Streamlit Application Server on ASW EC2
+    ![Tmux](Images/ApplicationServer.png)
 
 ## 2.1. Technical Architecture 
  ...
 
 ## 2.2. Technology Stack 
- ...
+
+ - Solidity 
+ - Ganache
+ - Streamlit 
+ - Wallet Connect
+ - MetaMask
+ - AWS EC2
+ - Python
+ - Ethereum 
+ - Remix
+
 
 ## 2.3. Deployment Plan 
 
-![Dalmas Deployment Plan: ](Dalmas_Deployment_Plan.png)
+![Dalmas Deployment Plan: ](Images/Dalmas_Deployment_Plan.png)
  ...
 
-## 2.4. Installation / Deployment Manuals 
- ...
+## 2.4. Videos
+  
+  1- Smart Contract Deplyment 
 
-## 2.5. User Manuals / Training Videos 
+       /Videos/1-XalmasSmartContractDeployment.mp4
+
+  2- Issuing Xalmas NFT
+
+        /Videos/2-XalmasShowRoom(NFT).mp4
+
+
+  3- Xalmas Auction platform 
+
+        /Videos/3-XalmasDealingRoom(Auction).mp4
+  4- Issuing Dalmas Token and crwodsale
+
+        /Videos/4-DalmasTokenIssueandCrowdsale.mp4
+
+  5- List and Trade Dalmas Token on Uniswap
+
+        /Videos/5-DalmasListingandTradingUniswapDEX.mp4
+
+## 2.5. User Manuals
  
- ![Dalmas Dex Listing and Trading](DALMAS_DEX_Listing_and_Trading.mp4)
- ![Ganache on AWS](Ganache_on_AWS.docx)
  ...
 
 ## 2.6. Future Development 
  ...
 
+
 ## 2.7. References
 
+- https://www.coindesk.com/business/2022/08/26/blockchain-startup-aims-to-open-the-1t-diamond-market-to-more-investors/
 
+- https://artmeetsjewellery.com/gemstone-tokenization-nft-diamonds/
 
-https://www.coindesk.com/business/2022/08/26/blockchain-startup-aims-to-open-the-1t-diamond-market-to-more-investors/
+- https://icecap.diamonds/why-tokenize/
 
-https://artmeetsjewellery.com/gemstone-tokenization-nft-diamonds/
+- https://levelup.gitconnected.com/the-7-types-of-cryptocurrencies-you-must-know-3b26b2ce0eb8
 
-https://icecap.diamonds/why-tokenize/
-
-https://levelup.gitconnected.com/the-7-types-of-cryptocurrencies-you-must-know-3b26b2ce0eb8
-
-![Whitepaper Token Backed by Diamonds: ](Whitepaper_Token_Backed_Diamond_mDia_WPVER_0_07.pdf)
 
 ## 2.8. Project Team 
- ...
- 
+ - Mohammad Samadi
+- Javier Aramayo
+- Omar Dabban
+- Abhilesh
+- Saiful
+- Ali
