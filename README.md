@@ -42,9 +42,13 @@ The long-term outlook for the diamond market is positive, with demand for natura
  References: Whitepaper
  
 ## 1.3. Why Digital Asset ?
- Dalmas token is designed to leverage the security and accessibility of blockchain technology with the stability of traditional assets. Dalmas token is a diamond-backed token, with each token pegged to the value of a fraction of an authentic, natural diamonds.
- 
- ...
+ Diamonds are an ideal asset backing for a token since they are rare, take a billion years to develop, have several millennia of history as a recognized store of value, and the ownership, identification and value can be certified.
+
+Dalmas token is designed to leverage the security and accessibility of blockchain technology with the stability of traditional assets. Dalmas token is a diamond-backed token, with each token pegged to the value of a fraction of a pool of authentic, natural diamonds.
+
+There are two relevant components for the Dalmas token; the Certificate of the Diamonds that backs the tokens and the tokens that represent a share of ownership of the pool of Diamonds. The Certificates will be registered as NFTs following ERC721 Standard and the Tokens will be minted following ERC20 standards.
+
+A digital token, Dalmas, can also be traded for other blockchain tokens via market platforms such as DEX
 
 ## 1.4. Dalmas Business Process Flowchart
  
@@ -54,28 +58,58 @@ The long-term outlook for the diamond market is positive, with demand for natura
 ## 1.5. Xalmas Applications (Launchpad)
 
 - Xalmas Show Room
+It provides a list of the Diamonds and their relevant information; this application allows the minting of Diamonds and registration as as NFTs and the updates to the values of the Diamonds.
+
     ![ShowRoom](Images/ShowRoom.png)
 
      http://54.226.181.58:8501
 
 - Xalmas Investment Tool (Dalmas Token)
+This module provides the tools for investors to purchase or return tokens for refunds. It provides information about the total tokens and it allow ADMIN to burn tokens that were returned.
+
     ![Dalmas Token](Images/DealingRoom.png)
          http://54.226.181.58:8502 
 
-- Xalmas Dealing Room 
+- Xalmas Dealing Room
+This module allows the sale of Diamonds via auction to fetch the best value.
+
     ![DealingRoom](Images/DealingRoom.png)
 
      http://54.226.181.58:8503
 
-- Xalmas Decentralized Exchange 
+- Xalmas Decentralized Exchange
+This application will lead to the exchange where Dalmas can be traded for other tokens in the blockchain market.
+
     ![DEX](Images/uniswap.jpg)
 
     https://app.uniswap.org/#/swap
 
 ## 1.6. Dalmas Tokenomics
- ...
+The value of Dalmas tokens is backed by the value of real diamonds. Diamonds are certified by the Gemological Institute of America(“GIA”), and the serial number of the certificate is laser inscription on the body of the diamond. The price of each diamond in issuer offering is calculated upon Rapaport price plus side costs of receiving the GIA certificate. The Dalmas tokens value are derived directly by the total value of the NFT Diamond pool with the value of the Dalmas tokens to be updated for every additional NFT Diamond minted or when the value of the Diamonds is updated in the market as determined by the Rapaport report.
 
----
+Dalmas tokens can also be exchangeable in Stellar DEX with other Stellar tokens; expanding their liquidity and benefiting Dalmas investors.
+
+### The value of Dalmas tokens is determined as follows:
+
+- Dalmas token initial value. It is determined by the total value of the NFT Diamonds pool divided by the # of tokens determined when launching Xalmas. It is anticipated that the initial value of each Dalma should be small enough to attract a large number of customers. 
+
+            Dalmas Token initial value = Total Value of NFT Diamonds / Initial number of Tokens supplied
+
+- Dalmas Tokens - Updated value. 
+
+With Diamond Valuation:
+    Dalmas Updated Token Value = Total Updated Value of NFT Diamonds  / Total number of tokens supplied
+
+When adding new Diamond(s): The principle is that all tokens have the same value independently of when they were minted. It is a 2 step process.
+    Step 1: Calculate the Total number of additional tokens = Total Updated Value of NFT Diamonds (including the added diamond) / Dalmas Token Current Value
+    Step 2: Mint the required Additional tokens
+
+
+### Dalmas returned 
+- Investors can return their Dalmas tokens and get a refund based on an updated value. The returned tokens are then burned.
+
+### Dalmas trading
+- Dalmas tokens can also be exchangeable in Stellar DEX with other Stellar tokens; expanding their liquidity and benefiting Dalmas investors.
 
 # 2. Xalmas Could Deployment 
 
@@ -133,6 +167,9 @@ The long-term outlook for the diamond market is positive, with demand for natura
  ...
 
 ## 2.6. Future Development 
+ 
+ 1) Develop an internet site for the deployment of Xalmas
+ 2) 
  ...
 
 
@@ -151,6 +188,6 @@ The long-term outlook for the diamond market is positive, with demand for natura
  - Mohammad Samadi
 - Javier Aramayo
 - Omar Dabban
-- Abhilesh
-- Saiful
-- Ali
+- Abhilesh 
+- Saiful Ahmed
+- Ali Ze
