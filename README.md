@@ -190,6 +190,6 @@ Dalmas tokens can also be exchangeable in Stellar DEX with other Stellar tokens;
  - Mohammad Samadi
 - Javier Aramayo
 - Omar Dabban
-- Abhilesh 
+- Abhilesh Gaikwad
 - Saiful Ahmed
 - Ali Zaidi
