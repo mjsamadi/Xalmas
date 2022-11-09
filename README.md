@@ -97,13 +97,15 @@ Dalmas tokens can also be exchangeable in Stellar DEX with other Stellar tokens;
 
 - Dalmas Tokens - Updated value. 
 
-With Diamond Valuation:
-    Dalmas Updated Token Value = Total Updated Value of NFT Diamonds  / Total number of tokens supplied
+    With Diamond Valuation:
 
-When adding new Diamond(s): The principle is that all tokens have the same value independently of when they were minted. It is a 2 step process.
-    Step 1: Calculate the Total number of additional tokens = Total Updated Value of NFT Diamonds (including the added diamond) / Dalmas Token Current Value
-    Step 2: Mint the required Additional tokens
+            Dalmas Updated Token Value = Total Updated Value of NFT Diamonds  / Total number of tokens supplied
 
+    When adding new Diamond(s): The principle is that all tokens have the same value independently of when they were minted. It is a 2 step process.
+    
+        Step 1: Calculate the Total number of additional tokens = Total Updated Value of NFT Diamonds (including the added diamond) / Dalmas Token Current Value
+    
+        Step 2: Mint the required Additional tokens
 
 ### Dalmas returned 
 - Investors can return their Dalmas tokens and get a refund based on an updated value. The returned tokens are then burned.
