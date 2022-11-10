@@ -20,25 +20,21 @@ load_dotenv()
 w3 = Web3(Web3.HTTPProvider(os.getenv("WEB3_PROVIDER_URI")))
 accounts = w3.eth.accounts
 
-auctions=os.getenv("AUCTION_CONTRACT_ADDRESS")
-auctions=[auctions, "NA"]
-
-url=os.getenv("DB_URL")
-
 # Diamond Database
-#diamond_database = {
-#         "Diamond1": ["Diamond1", "0", "2141438167", 6750, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/image1.png"],
-#         "Diamond2": ["Diamond2", "1", "6271461533", 2480, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/image2.png"],
-#         "Diamond3": ["Diamond3", "2", "55245801", 8140, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/image3.png"],
-#         "Diamond4": ["Diamond4", "3", "22077474081", 8340, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/Image4.png"],
-#         "Diamond5": ["Diamond5", "4", "2151153863", 4650, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/Image5.jpg"],
-#         "Diamond6": ["Diamond6", "5", "1187080939", 5140, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/Image6.jpg"],
-#         "Diamond7": ["Diamond7", "6", "2145936424", 7410, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/Image7.jpg"]
-#         }
+
+# url = 'https://json.extendsclass.com/bin/fb248f0e957e'
+diamond_database = {
+         "Diamond1": ["Diamond1", "0", "2141438167", 6750, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/image1.png"],
+         "Diamond2": ["Diamond2", "1", "6271461533", 2480, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/image2.png"],
+         "Diamond3": ["Diamond3", "2", "55245801", 8140, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/image3.png"],
+         "Diamond4": ["Diamond4", "3", "22077474081", 8340, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/Image4.png"],
+         "Diamond5": ["Diamond5", "4", "2151153863", 4650, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/Image5.jpg"],
+         "Diamond6": ["Diamond6", "5", "1187080939", 5140, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/Image6.jpg"],
+         "Diamond7": ["Diamond7", "6", "2145936424", 7410, "https://gateway.pinata.cloud/ipfs/QmUqCEaURthbSNB9JLjbhMpfTDqyfsyob6RH5pwsSgqxTk/Image7.jpg"]
+         }
 
 diamonds = ["Diamond1", "Diamond2", "Diamond3", "Diamond4", "Diamond5", "Diamond6", "Diamond7"]
-pool = diamonds
-db_list = json.loads(requests.get(url).text)
+db_list = list(diamond_database.values())
 
 ################################################################################
 # Contract Helper functions:
@@ -69,16 +65,15 @@ def load_contract():
 def intro():
     import streamlit as st
     
-    st.write("# Welcome to Xalmas Showroom!")
+    st.write("# Welcome to Xalmas Showroom! 👋")
+    st.sidebar.success("Select to explore")
+    
     st.markdown(
         """
-        !!!!!!
-        Streamlit is an open-source app framework built specifically for
-        Machine Learning and Data Science projects.
-        !!!!!
+        You can obtain listed GIA Certification and have the certificates minted at Xalmas Showroom
     """
     )
-    
+    st.image('diamondimage.webp')
 ################################################################################
 # Diamond Pool
 ################################################################################
@@ -92,12 +87,13 @@ def listing():
         """
     )
 
+    #db_list = json.loads(requests.get(url).text)
     for number in diamonds:
       st.text("====================================================")
-      st.image(db_list[number][4], width=300)
-      st.write(" Diamond ID: ", db_list[number][0])
-      st.write(" GIA Certificate ID: ", db_list[number][2])
-      st.write(" Rapaport Price: ", db_list[number][3], "USD")
+      st.image(diamond_database[number][4], width=300)
+      st.write(" Diamond ID: ", diamond_database[number][0])
+      st.write(" GIA Certificate ID: ", diamond_database[number][2])
+      st.write(" Rapaport Price: ", diamond_database[number][3], "USD")
       st.text("====================================================")
       st.text(" \n")
 
@@ -108,19 +104,22 @@ def mint_nft():
     import streamlit as st
 
     st.markdown(f"# {list(page_names_to_funcs.keys())[2]}")
-       
+    
+    pool = ["Diamond1", "Diamond2", "Diamond3", "Diamond4", "Diamond5", "Diamond6", "Diamond7"]
+    #db_list = json.loads(requests.get(url).text)
+    
     st.markdown("## Register GIA Certification")
     address = st.selectbox("Select Account as Owner and Minter of Diamond NFT", options=accounts)
     diamond_name = st.selectbox("Select from Diamond Pool", options = pool)
-    giaid= db_list[diamond_name][2]
-    value= int(db_list[diamond_name][3])
-    uri= db_list[diamond_name][4]
+    giaid= diamond_database[diamond_name][2]
+    value= int(diamond_database[diamond_name][3])
+    uri= diamond_database[diamond_name][4]
     
     st.text("====================================================")
-    st.image(db_list[diamond_name][4], width=300)
-    st.write(" Diamond ID: ", db_list[diamond_name][0])
-    st.write(" GIA Certificate ID: ", db_list[diamond_name][2])
-    st.write(" Rapaport Price: ", db_list[diamond_name][3], "USD")
+    st.image(diamond_database[diamond_name][4], width=300)
+    st.write(" Diamond ID: ", diamond_database[diamond_name][0])
+    st.write(" GIA Certificate ID: ", diamond_database[diamond_name][2])
+    st.write(" Rapaport Price: ", diamond_database[diamond_name][3], "USD")
     st.text("====================================================")
     st.text(" \n")
 
@@ -139,11 +138,14 @@ def mint_nft():
         st.sidebar.write("Transaction receipt mined:")
         st.sidebar.write(dict(receipt))
 
+
 ################################################################################
 # Diamond Value
 ################################################################################
 def diamond_value():
     import streamlit as st
+    import pandas as pd
+    import altair as alt
 
     st.markdown(f"# {list(page_names_to_funcs.keys())[2]}")
     st.write(
@@ -151,6 +153,9 @@ def diamond_value():
         Diamond Value
         """
     )
+    
+    pool = ["Diamond1", "Diamond2", "Diamond3", "Diamond4", "Diamond5", "Diamond6", "Diamond7"]
+    #db_list = json.loads(requests.get(url).text)
     
     st.markdown("## Update Diamond value")
     address = st.selectbox("Select Account as Owner of Diamond NFT", options=accounts)
@@ -160,20 +165,20 @@ def diamond_value():
     st.sidebar.write("Auction Contract Address: ",contract_address)
 
     st.text("====================================================")
-    st.image(db_list[diamond_name][4], width=300)
-    st.write(" Diamond ID: ", db_list[diamond_name][0])
-    st.write(" GIA Certificate ID: ", db_list[diamond_name][2])
-    st.write(" Rapaport Price: ", db_list[diamond_name][3], "USD")
+    st.image(diamond_database[diamond_name][4], width=300)
+    st.write(" Diamond ID: ", diamond_database[diamond_name][0])
+    st.write(" GIA Certificate ID: ", diamond_database[diamond_name][2])
+    st.write(" Rapaport Price: ", diamond_database[diamond_name][3], "USD")
     st.write(" NFT Address: ", contract_address)
-    st.write(" TokenID: ", db_list[diamond_name][1])
+    st.write(" TokenID: ", diamond_database[diamond_name][1])
     st.text("====================================================")
     st.text(" \n")
 
-    tokenId= int(db_list[diamond_name][1])
+    tokenId= int(diamond_database[diamond_name][1])
     newValue = st.text_input("Enter the new Value for Diamond")
     reportUri = st.text_input("Enter the Report URI")
 
-    if st.button("Update Xalmas Value"):
+    if st.button("Register Xalmas NFT"):
         tx_hash = contract.functions.newAppraisal(
             tokenId,
             int(newValue),
@@ -183,48 +188,6 @@ def diamond_value():
         st.sidebar.write("Transaction receipt mined:")
         st.sidebar.write(dict(receipt))
 
-################################################################################
-# Send to Auction
-################################################################################
-def send_to_auction():
-    import streamlit as st
-
-    st.markdown(f"# {list(page_names_to_funcs.keys())[2]}")
-    st.write(
-        """
-        Send Diamond NFT to Auction
-        """
-    )
-    
-    st.markdown("## Send a Dinamond NFT for Auction")
-    address = st.selectbox("Select Account as Owner of Diamond NFT", options=accounts)
-    diamond_name = st.selectbox("Select from Diamond Pool", options = pool)
-
-    contract, contract_address = load_contract()
-    st.sidebar.write("Auction Contract Address: ",contract_address)
-
-    st.text("====================================================")
-    st.image(db_list[diamond_name][4], width=300)
-    st.write(" Diamond ID: ", db_list[diamond_name][0])
-    st.write(" GIA Certificate ID: ", db_list[diamond_name][2])
-    st.write(" Rapaport Price: ", db_list[diamond_name][3], "USD")
-    st.write(" NFT Address: ", contract_address)
-    st.write(" TokenID: ", db_list[diamond_name][1])
-    st.text("====================================================")
-    st.text(" \n")
-
-    tokenId= int(db_list[diamond_name][1])
-
-    acution_address = st.selectbox("Select Auction address", options=auctions)
-
-    if st.button("Send to Auction"):
-        tx_hash = contract.functions.approve(
-            acution_address,
-            tokenId
-        ).transact({'from': address, 'gas': 1000000})
-        receipt = w3.eth.waitForTransactionReceipt(tx_hash)
-        st.sidebar.write("Transaction receipt mined:")
-        st.sidebar.write(dict(receipt))
 
 ################################################################################
 ################################################################################
@@ -236,11 +199,10 @@ page_names_to_funcs = {
     "Home": intro,
     "Diamond Pool": listing,
     "Mint Diamond NFT": mint_nft,
-    "Update Diamond Value": diamond_value,
-    "Send to Auction": send_to_auction    
+    "Diamond Value": diamond_value,    
 }
 
-usecase = st.sidebar.selectbox("Choose a function", page_names_to_funcs.keys())
+usecase = st.sidebar.selectbox("Choose a showroom", page_names_to_funcs.keys())
 page_names_to_funcs[usecase]()
 
 # Load the contract
